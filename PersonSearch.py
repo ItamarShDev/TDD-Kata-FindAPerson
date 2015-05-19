@@ -47,7 +47,7 @@ class PersonSearch (unittest.TestCase):
 
     def test_for_map_incosistencies_for_missing_name(self):
         return_value = self.crowdmap.check_for_incosistencies("Not Existed")
-        self.assertTrue(return_value)
+        self.assertFalse(return_value)
 
 
 
