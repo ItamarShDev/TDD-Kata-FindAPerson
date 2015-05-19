@@ -39,11 +39,15 @@ class PersonSearch (unittest.TestCase):
     def test_if_map_includes_location_for_missing_location(self):
         reply = self.crowdmap.geo_location_existed("Not Existed")
         self.assertFalse(reply)
+
     #Check if there are map inconsistencies, e.g., the same name with different locations.
     def test_for_map_incosistencies(self):
         return_value = self.crowdmap.check_for_incosistencies("Or")
         self.assertTrue(return_value)
 
+    def test_for_map_incosistencies_for_missing_name(self):
+        return_value = self.crowdmap.check_for_incosistencies("Not Existed")
+        self.assertTrue(return_value)
 
 
 
