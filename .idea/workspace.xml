@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0314ffb7-1020-406b-aa4a-c507cabe615e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PersonSearch.py" afterPath="$PROJECT_DIR$/PersonSearch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crowdmap.py" afterPath="$PROJECT_DIR$/crowdmap.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TDD-Kata-FindAPerson.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,7 +18,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TDD-Kata-FindAPerson$Unittests_in_PersonSearch.coverage" NAME="Unittests in PersonSearch Coverage Results" MODIFIED="1432018831683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TDD-Kata-FindAPerson$Unittests_in_PersonSearch.coverage" NAME="Unittests in PersonSearch Coverage Results" MODIFIED="1432019145401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TDD-Kata-FindAPerson$Unittests_in_TDD_Kata_FindAPerson.coverage" NAME="Unittests in TDD-Kata-FindAPerson Coverage Results" MODIFIED="1430810797367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -28,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PersonSearch.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PersonSearch.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PersonSearch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7630923">
-              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="50" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="50" />
               <folding>
                 <element signature="e#22#37#0" expanded="true" />
               </folding>
@@ -40,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="crowdmap.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="crowdmap.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crowdmap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.33915213">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -76,8 +78,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/crowdmap.py" />
         <option value="$PROJECT_DIR$/PersonSearch.py" />
+        <option value="$PROJECT_DIR$/crowdmap.py" />
       </list>
     </option>
   </component>
@@ -507,21 +509,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crowdmap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PersonSearch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7630923">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="50" />
           <folding>
             <element signature="e#22#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdmap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33915213">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
