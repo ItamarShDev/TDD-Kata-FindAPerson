@@ -29,7 +29,7 @@ class PersonSearch (unittest.TestCase):
                 return_value = True
             else:
                 return_value = False
-        self.assertTrue(return_value)
+        self.assertFalse(return_value)
 
     #Given a name, check if the map includes a location information (place or geo. location)
     def test_if_map_includes_location(self):
