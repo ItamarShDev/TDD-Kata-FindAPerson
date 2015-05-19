@@ -20,6 +20,17 @@ class PersonSearch (unittest.TestCase):
                 return_value = False
         self.assertTrue(return_value)
 
+    def test_getAllPostsForName_for_missing_name(self):
+        name = "not existed"
+        return_value = False
+        posts = self.crowdmap.get_all_post_for(name)
+        for post in posts:
+            if name in post:
+                return_value = True
+            else:
+                return_value = False
+        self.assertTrue(return_value)
+
     #Given a name, check if the map includes a location information (place or geo. location)
     def test_if_map_includes_location(self):
         reply = self.crowdmap.geo_location_existed("Or")
