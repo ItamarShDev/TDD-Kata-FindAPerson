@@ -12,7 +12,11 @@ class PersonSearch (unittest.TestCase):
 
     def test_getAllPostsForName(self):
         posts = self.crowdmap.get_all_post_for("Or")
-        self.assertIn("Or",posts)
+        for _name in posts:
+            if _name != "Or":
+                return False
+            else:
+                return True
 
     #Given a name, check if the map includes a location information (place or geo. location)
 
