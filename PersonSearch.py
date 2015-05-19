@@ -11,21 +11,24 @@ class PersonSearch (unittest.TestCase):
         self.crowdmap = CrowdMap()
 
     def test_getAllPostsForName(self):
+        return_value = False
         posts = self.crowdmap.get_all_post_for("Or")
-        for _name in posts:
-            if _name != "Or":
-                return False
+        for post in posts:
+            if "Or" in post:
+                return_value = True
             else:
-                return True
+                return_value = False
+        self.assertTrue(return_value)
 
     #Given a name, check if the map includes a location information (place or geo. location)
     def test_if_map_includes_location(self):
         reply = self.crowdmap.geo_location_existed("Or")
-        return reply
+        self.assertTrue(reply)
 
     #Check if there are map inconsistencies, e.g., the same name with different locations.
     def test_for_map_incosistencies(self):
-        self.crowdmap.check_for_incosistencies()
+        return_value = self.crowdmap.check_for_incosistencies("Or")
+        self.assertTrue(return_value)
 
 
 

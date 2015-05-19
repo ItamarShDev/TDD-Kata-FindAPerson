@@ -13,8 +13,20 @@ class CrowdMap():
     def geo_location_existed(self,name):
         posts = self.get_all_post_for(name)
         for loc in posts:
-            if loc == "Bangkok":
+            if "Bangkok" in loc:
                 return True
         return False
 
-    # def check_for_incosistencies(self):
+    def check_for_incosistencies(self,name):
+        posts = self.get_all_post_for(name)
+        for l in posts:
+            if self.check_city(l) is not True:
+                return True
+            else:
+                return False
+
+    def check_city(self,post):
+        if "bangkok" in post:
+            return True
+        else:
+            return False
